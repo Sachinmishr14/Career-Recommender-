@@ -1,46 +1,42 @@
-# Note Please:
-Before using any other file you have to run the Studend recommendation notebook to get model.pkl and scaler.pkl.
 
-# Dataset Description:
+# CareerPathAI – ML-Based Career Recommender System
 
-download link:: https://www.kaggle.com/datasets/noorsaeed/student-studeis-recommendation
+CareerPathAI is a machine learning–based recommendation engine that suggests **personalized study and career paths** for students.  
+It processes academic data, applies ML models, and delivers actionable recommendations via a Flask web app.
 
-This dataset contains information about students enrolled in an academy, including their personal details, academic scores, extracurricular activities, and career aspirations.
+---
 
-Features Information: 
+##  Features
+- Personalized career path suggestions.
+- Academic data preprocessing & feature engineering.
+- Multiple ML models tested (Random Forest, Logistic Regression, etc.).
+- Flask web app for deployment.
+- Detailed recommendations with insights and graphs.
 
-id: Unique identifier for each student.
+---
 
-first_name: First name of the student.
+##  Tech Stack
+- **Language:** Python  
+- **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib  
+- **Framework:** Flask  
 
-last_name: Last name of the student.
+---
 
-email: Email address of the student.
+## ⚙️ Installation & Setup
 
-gender: Gender of the student (male/female).
+```bash
+# Clone repository
+git clone https://github.com/<your-username>/careerpathai.git
+cd careerpathai
 
-part_time_job: Indicates whether the student has a part-time job (True/False).
+# Virtual environment
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 
-absence_days: Number of days the student has been absent.
+# Install dependencies
+pip install -r requirements.txt
 
-extracurricular_activities: Indicates whether the student participates in extracurricular activities (True/False).
+# Run Flask app
+python app.py
 
-weekly_self_study_hours: Number of hours the student spends on self-study per week.
-
-Note:
-Before using this dataset for any analysis or machine learning projects, it's essential to preprocess the data, handle missing values, encode categorical variables, and split the data into training and testing sets appropriately. Additionally, ensure compliance with any privacy or ethical considerations when working with personal data such as email addresses.
-
-career_aspiration: Aspirational career path of the student.
-
-math_score: Score achieved by the student in mathematics.
-
-history_score: Score achieved by the student in history.
-
-physics_score: Score achieved by the student in physics.
-
-chemistry_score: Score achieved by the student in chemistry.
-
-biology_score: Score achieved by the student in biology.
-
-english_score: Score achieved by the student in English.
-geography_score: Score achieved by the student in geography.
