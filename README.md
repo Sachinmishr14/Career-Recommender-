@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 CareerPathAI – ML-Based Career Recommender System
 
 CareerPathAI is a machine learning–based recommendation engine that suggests personalized study and career paths for students.
