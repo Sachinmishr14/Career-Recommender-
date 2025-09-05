@@ -21,6 +21,7 @@ It analyzes academic data and suggests personalized options to help students mak
 ---
 
 ## Run Locally
+```bash
 git clone https://github.com/your-username/careerpathai.git
 cd your Folder name
 pip install -r requirements.txt
